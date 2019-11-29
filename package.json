@@ -1,9 +1,9 @@
 {
   "name": "app-bootstrap",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "git@github.com:CodeVachon/2019-app-bootstrap.git",
-  "author": "Christopher Vachon <chrisv@labx.com>",
+  "author": "Christopher Vachon <code@christophervachon.com>",
   "license": "MIT",
   "scripts": {
     "test": "jest --coverage",

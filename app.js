@@ -13,9 +13,8 @@ module.exports = (env) => {
     app.set("view engine", "pug");
 
     app.set("title", `${pkg.name}:${pkg.version}`);
-    app.set("cdn_static_path");
-    app.set("maincssfiles", [`${cdn_static_path}${pkg.name}.css`]);
-    app.set("mainjsfiles", [`${cdn_static_path}${pkg.name}.js`]);
+    app.set("maincssfiles", [`/${pkg.name}.css`]);
+    app.set("mainjsfiles", [`/${pkg.name}.js`]);
     app.set("metadata", [
         {
             name: "description",
